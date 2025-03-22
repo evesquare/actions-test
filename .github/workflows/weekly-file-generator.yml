@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * 1'
   workflow_dispatch:  # 手動実行用のトリガー
 
+permissions:
+  contents: write
+
 jobs:
   generate-file:
     runs-on: ubuntu-latest
