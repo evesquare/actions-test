@@ -1,9 +1,9 @@
 name: Weekly File Generator
 
 on:
-  schedule:
-    # 毎週月曜日の午前0時（UTC）に実行
-    - cron: '0 0 * * 1'
+  # schedule:
+  #   # 毎週月曜日の午前0時（UTC）に実行
+  #   - cron: '0 0 * * 1'
   workflow_dispatch:  # 手動実行用のトリガー
 
 permissions:
